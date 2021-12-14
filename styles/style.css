@@ -13,11 +13,12 @@
 
 .header {
   position: relative;
+  display: flex;
+  align-items: center;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   background-color: var(--gray);
-  z-index: -3;
   /* выше установили ограничения для секции */
 }
 .logo {
@@ -30,10 +31,9 @@
   left: 64px;
 }
 .header__title {
-  display: flex;
-  height: 100%;
+  position: relative;
+  z-index: 3;
   width: 730px;
-  align-items: center;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
@@ -42,6 +42,8 @@
 }
 .header__subtitle {
   position: absolute;
+  margin: 0;
+  z-index: 3;
   width: 388px;
   bottom: 30px;
   left: 64px;
@@ -58,7 +60,7 @@
   bottom: 0;
   right: 0;
   width: 765px;
-  z-index: -1;
+  z-index: 2;
 }
 .header__square-pic {
   position: absolute;
@@ -67,7 +69,7 @@
   height: 568px;
   width: 568px;
   background-color: var(--blue);
-  z-index: -2;
+  z-index: 1;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -257,12 +259,14 @@
   justify-content: space-between;
 }
 .footer__author {
+  margin: 0;
   margin: 18px 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
 }
 .footer__column-heading {
+  margin: 0;
   margin-bottom: 20px;
   line-height: 30px;
   font-size: 18px;
