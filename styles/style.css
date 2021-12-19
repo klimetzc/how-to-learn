@@ -141,9 +141,14 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1100px;
+  padding: 0;
+  margin: 0;
 }
 .table__cell {
   width: 250px;
+  list-style-type: none;
+}
+.table__cell_first_row {
   margin-bottom: 60px;
 }
 .table__heading {
@@ -217,7 +222,7 @@
 }
 .section-title_theme_dark {
   color: white;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 .section-subtitle_theme_dark {
   color: white;
@@ -226,7 +231,7 @@
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
   /* margin-right: 0; */
   /* margin-top: 80px; */
 }
@@ -275,7 +280,7 @@
 .footer__column-link {
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
   text-decoration: none;
   color: white;
   line-height: 30px;
