@@ -1,0 +1,13 @@
+.kaufman {
+    display: flex;
+    position: relative;
+    padding: 90px 0;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--dark);
+    /* background-image: url(../../images/kaufman-triangle.svg); */
+    /* background-size: 877px 877px; */
+    /* background-position: right -210px top 0px; */
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }

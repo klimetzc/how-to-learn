@@ -1,0 +1,7 @@
+.footer__column {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__column:not(:first-of-type) {
+    width: 150px;
+  }

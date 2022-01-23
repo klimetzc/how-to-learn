@@ -1,0 +1,10 @@
+.footer__columns {
+    /*Можно было через флекс, но очень захотелось попробовать грид*/
+    display: grid;
+    grid-template-columns: 711px 150px 150px;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 0 auto;
+    width: 90%;
+    min-height: 250px;
+  }
