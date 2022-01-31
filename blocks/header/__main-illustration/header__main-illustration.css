@@ -1,7 +1,9 @@
 .header__main-illustration {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 765px;
-    z-index: 2;
-  }
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 765px;
+  z-index: 2;
+  object-fit: cover;
+  object-position: center;
+}

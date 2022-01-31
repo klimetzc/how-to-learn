@@ -1,7 +1,9 @@
-.cards{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 100px;
-    row-gap: 60px;
-    width: 920px;
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 100px;
+  row-gap: 60px;
+  width: 920px;
+  margin: 0;
+  padding: 0;
 }

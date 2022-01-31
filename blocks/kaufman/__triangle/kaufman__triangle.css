@@ -1,10 +1,11 @@
-.kaufman__triangle{
-    position: absolute;
-    width: 877px;
-    height: 877px;
-    top: 0px;
-    right: -210px;
-    z-index: 0;
-    animation: rotation 20s linear infinite;
-    /* transform-origin: center; */
+.kaufman__triangle {
+  position: absolute;
+  width: 877px;
+  height: 877px;
+  top: 0px;
+  right: -210px;
+  z-index: 0;
+  background-image: url(/images/kaufman-triangle.svg);
+  background-size: cover;
+  /* transform-origin: center; */
 }
